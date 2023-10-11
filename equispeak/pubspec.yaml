@@ -1,0 +1,18 @@
+name: equispeak_app
+description: EquiSpeak App
+
+environment:
+  sdk: '3.1.3'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.3.0
+  flutter_tts: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/logo.png
+
