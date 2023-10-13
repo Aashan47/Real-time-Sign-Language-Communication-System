@@ -1,16 +1,13 @@
-# equispeak
+# login_app
 
-A new Flutter project.
+SignUp and Login using this app with its simple and stunning UI
 
-## Getting Started
+## Output
 
-This project is a starting point for a Flutter application.
+<img src="assets/images/login.png" alt="login_app" align="center" height="780" width="360">
 
-A few resources to get you started if this is your first Flutter project:
+### What i used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+packages: Material, Firebase auth, Loading overlay, rFlutter alert
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+assets: images represeting the heading for each app page and one font to style the text

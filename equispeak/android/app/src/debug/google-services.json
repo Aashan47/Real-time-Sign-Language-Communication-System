@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240739862725",
+    "project_id": "equispeak-c1e86",
+    "storage_bucket": "equispeak-c1e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240739862725:android:d0e0cdabd29117382f08ac",
+        "android_client_info": {
+          "package_name": "com.equispeak.MyApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM3K1ohdBA1Bj_AGFK-dnZdFqjZJwmC9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
