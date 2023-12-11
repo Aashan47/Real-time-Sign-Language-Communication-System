@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_tts: ^3.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -39,6 +39,10 @@ dependencies:
   firebase_auth: ^4.7.3
   loading_overlay: ^0.3.0
   rflutter_alert: ^2.0.7
+  google_fonts: ^6.1.0
+  camera:
+  socket_io_client:
+ 
   
 
 dev_dependencies:
@@ -69,6 +73,16 @@ flutter:
     - assets/images/icons/facebook.png
     - assets/images/icons/google.png
     - assets/images/icons/linkedin.png
+    - assets/images/Person.png
+    - assets/images/arrow1.svg
+    - assets/images/arrow2.svg
+    - assets/images/arrow4.svg
+    - assets/images/Voicetext.png
+    - assets/images/gesture.png
+    - assets/images/flipcard.png
+    - assets/labels.txt
+    - assets/new_model.tflite
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
