@@ -5,6 +5,7 @@ import 'package:login_app/screens/welcome.dart';
 import 'package:loading_overlay/loading_overlay.dart';
 import 'package:login_app/screens/home_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:login_app/screens/main_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -102,7 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             _saving = false;
                             Navigator.popAndPushNamed(context, LoginScreen.id);
                           });
-                          Navigator.pushNamed(context, WelcomeScreen.id);
+                          Navigator.pushNamed(context, MainScreen.id);
                         }
                       } catch (e) {
                         signUpAlert(
