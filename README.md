@@ -1,80 +1,101 @@
-📖 Real-time Sign Language Communication System
-A cross-platform mobile and desktop application that enables real-time, bidirectional communication between hearing and hearing-impaired individuals using sign language recognition and speech synthesis.
+# 🤟 Real-time Sign Language Communication System
 
-This project bridges the communication gap by integrating machine learning, computer vision, and speech technologies into an intuitive mobile-first user experience.
+A cross-platform application that enables **real-time, bidirectional communication** between hearing and hearing-impaired individuals through **sign language recognition** and **speech synthesis**.
 
-🚀 Features
-🔤 Real-time Sign Language Detection
-Leverages ML models to detect and translate sign gestures into text and speech output.
+This system bridges the communication gap by combining **computer vision**, **machine learning**, and **speech technologies** within an intuitive, Flutter-powered user experience.
 
-🗣️ Speech-to-Text & Text-to-Sign
-Enables hearing individuals to speak or type, and converts that to sign language visuals or text for the deaf.
+---
 
-📱 Cross-Platform UI
-Built using Flutter to support Android, iOS, Web, Windows, macOS, and Linux.
+## 🚀 Features
 
-🌐 Backend Communication via Ngrok
-Python server enables seamless interaction and tunneling for remote inference and message handling.
+- 🔤 **Real-time Sign Language Detection**  
+  Detects hand gestures using machine learning and translates them to text and speech.
 
-🧠 Tech Stack
-Frontend (equispeak/)
+- 🗣️ **Speech-to-Text & Text-to-Sign Conversion**  
+  Converts voice input to sign language visualizations for better accessibility.
 
-Flutter (Dart)
+- 📱 **Cross-Platform Support**  
+  Built with Flutter to support Android, iOS, Web, Windows, macOS, and Linux.
 
-Multi-platform targets (mobile, web, desktop)
+- 🌐 **Ngrok-powered Backend Integration**  
+  Python backend uses `ngrok` tunneling for seamless real-time interaction.
 
-Asset-based animation or video for sign rendering
+---
 
-Backend (Backend implementation/)
+## 🧠 Tech Stack
 
-Python 3.x
+### Frontend (`equispeak/`)
+- [Flutter](https://flutter.dev/) (Dart)
+- Platform Support: Android, iOS, Web, Desktop
+- Asset-based animations or sign visuals
 
-OpenCV, MediaPipe or TensorFlow (assumed for gesture recognition)
+### Backend (`Backend implementation/`)
+- Python 3.x
+- Likely libraries: OpenCV, TensorFlow/MediaPipe
+- Local server via Flask or FastAPI
+- Ngrok for public URL tunneling
 
-ngrok for exposing local servers over the internet
+---
 
-Flask/FastAPI-style server (likely based on server.py)
+## 📁 Project Structure
 
-📁 Project Structure
-bash
-Copy
-Edit
-├── equispeak/                 # Flutter front-end
-│   ├── lib/                   # Dart source code
-│   ├── android/ ios/ web/     # Platform-specific code
-│   ├── assets/                # Images, animations, etc.
-│   └── pubspec.yaml           # Flutter dependencies
+├── equispeak/ # Flutter front-end
+│ ├── lib/ # Dart source code
+│ ├── android/ ios/ web/ # Platform-specific code
+│ ├── assets/ # Images, animations, videos
+│ └── pubspec.yaml # Flutter dependencies
 
-├── Backend implementation/    # Python-based ML backend
-│   ├── models/                # ML models for recognition
-│   ├── src/                   # Supporting modules/utilities
-│   ├── main.py / server.py    # API endpoints, processing logic
-│   └── requirements.txt       # Python dependencies
-⚙️ Getting Started
-Frontend Setup (Flutter)
-bash
-Copy
-Edit
+├── Backend implementation/ # Python-based ML backend
+│ ├── models/ # Pretrained or custom ML models
+│ ├── src/ # Backend utilities and helpers
+│ ├── main.py / server.py # API endpoints and inference logic
+│ └── requirements.txt # Python dependencies
+
+## ⚙️ Getting Started
+
+### 🔧 Frontend Setup
+
+```bash
 cd equispeak
 flutter pub get
 flutter run
-Backend Setup (Python)
-bash
-Copy
-Edit
+
+🧠 Backend Setup
+
 cd "Backend implementation"
 pip install -r requirements.txt
 python server.py
-To expose your backend over the internet, start ngrok:
 
-bash
-Copy
-Edit
+To expose the backend using ngrok:
 ngrok http 5000
-📌 Use Case
-This system is built to empower inclusive communication in educational institutions, customer service desks, public spaces, and personal conversations—anywhere that sign language users need to be understood instantly.
 
-🧑‍💻 Author
+## 📌 Use Cases
+This system is ideal for:
+
+Educational institutions
+
+Customer service counters
+
+Healthcare environments
+
+Public-facing offices
+
+One-on-one communication
+
+Anywhere sign language users need instant understanding, this app ensures inclusive communication.
+
+## 👤 Author
 Aashan Javed
 GitHub: @Aashan47
 
+## 📌 License
+This project is open source and available under the MIT License.
+
+## 🙌 Future Improvements (Suggested)
+Add support for multiple sign languages (e.g., BSL, ISL)
+
+Train with real-world gesture datasets for higher accuracy
+
+Implement offline mode using on-device ML
+
+Include customizable avatars for animated sign display
