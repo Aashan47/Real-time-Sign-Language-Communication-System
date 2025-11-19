@@ -101,6 +101,10 @@ Anywhere sign language users need **instant understanding**, this app ensures **
 
 **Aashan Javed**
 GitHub: [@Aashan47](https://github.com/Aashan47)
+**Ammar Altaf**
+GitHub: [@ammexe](https://github.com/ammexe)
+**Shameer Abdullah**
+GitHub: [@ShameerAbdullah](https://github.com/ShameerAbdullah)
 
 -----
 
