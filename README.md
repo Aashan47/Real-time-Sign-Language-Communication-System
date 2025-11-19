@@ -117,8 +117,3 @@ This project is licensed under the [MIT License](https://www.google.com/search?q
   - Offline mode via on-device ML
   - Customizable avatars or visual output styles
 
------
-
-I've removed all the emojis and updated the **Tech Stack** section under **Backend** to explicitly mention **MediaPipe**'s role in feature extraction.
-
-Is there anything else you'd like to modify or add to the README?
