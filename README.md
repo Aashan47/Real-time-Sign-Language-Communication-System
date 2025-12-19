@@ -4,6 +4,8 @@ A cross-platform application that enables **real-time, bidirectional communicati
 
 This system bridges the communication gap by combining **computer vision**, **machine learning**, and **speech technologies** within an intuitive, Flutter-powered user experience.
 
+<img width="598" height="349" alt="image" src="https://github.com/user-attachments/assets/94d85577-03e7-4f44-8622-2006812374e1" />
+
 -----
 
 ## Features
